@@ -25,7 +25,7 @@ DEPENDENCIES
   nokogiri
   planned_service_changes_cli_app!
   pry
-  rake (~> 10.0)
+  rake
   require_all
 
 BUNDLED WITH

@@ -3,7 +3,7 @@ require_relative '../config/environment'
 
 
 def reload!
-  load './config/environment.rb'
+  load_all './lib'
 end
 
 # You can add fixtures and/or initialization code here to make experimenting

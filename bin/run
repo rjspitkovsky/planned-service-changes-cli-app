@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/planned_service_changes_cli_app/cli'
+
+CLI.new.test_method

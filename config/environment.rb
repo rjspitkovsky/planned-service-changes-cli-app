@@ -1,6 +1,7 @@
 
 #lib requirements
 require_relative '../lib/planned_service_changes_cli_app/cli'
+#require_relative "../lib/planned_service_changes_cli_app/version"
 
 
 require "bundler/setup"

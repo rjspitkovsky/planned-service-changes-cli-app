@@ -2,4 +2,4 @@
 
 require_relative '../config/environment'
 
-CLI.new.test_method
+CLI.new.call 

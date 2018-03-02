@@ -1,6 +1,7 @@
 class CLI
 
-  def test_method
-    puts "If this works, I should be able to read this."
-  end 
+  def call
+    puts "Welcome to the Planned Service Changes Gem!"
+    puts "Pick a line to receive service change information:"
+  end
 end

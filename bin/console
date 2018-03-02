@@ -1,7 +1,10 @@
 #!/usr/bin/env ruby
+require_relative '../config/environment'
 
-require "bundler/setup"
-require "planned_service_changes_cli_app"
+
+def reload!
+  load './config/environment.rb'
+end
 
 # You can add fixtures and/or initialization code here to make experimenting
 # with your gem easier. You can also use a different console, if you like.
